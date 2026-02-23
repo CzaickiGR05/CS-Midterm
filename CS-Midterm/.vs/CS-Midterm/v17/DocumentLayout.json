@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CzaickiGR05\\Documents\\GitHub\\CS-Midterm\\CS-Midterm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE370B6-5278-4D6E-A9FD-9B9A986BAF6F}|CS-Midterm.vcxproj|C:\\Users\\CzaickiGR05\\Documents\\GitHub\\CS-Midterm\\CS-Midterm\\01 Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDE370B6-5278-4D6E-A9FD-9B9A986BAF6F}|CS-Midterm.vcxproj|solutionrelative:01 Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "01 Main.cpp",
+              "DocumentMoniker": "C:\\Users\\CzaickiGR05\\Documents\\GitHub\\CS-Midterm\\CS-Midterm\\01 Main.cpp",
+              "RelativeDocumentMoniker": "01 Main.cpp",
+              "ToolTip": "C:\\Users\\CzaickiGR05\\Documents\\GitHub\\CS-Midterm\\CS-Midterm\\01 Main.cpp",
+              "RelativeToolTip": "01 Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-23T21:23:52.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
