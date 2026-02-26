@@ -5,7 +5,7 @@
 int main() {
 
 	std::cout << std::fixed << std::setprecision(3);
-	std::string temp;
+	std::string input;
 
 	std::cout << "welcome to CPP standard metric conversion! Please select which unit you would like to convert:" << std::endl;
 	std::cout << "type d for distance" << std::endl;
@@ -17,7 +17,7 @@ int main() {
 	if (unit == "m") {
 		std::cout << "converting mass." << std::endl;
 	}
-	else if(unit == "d") {
+	else if (unit == "d") {
 		std::cout << "converting distance." << std::endl;
 	}
 	else if (unit == "t") {
@@ -25,7 +25,7 @@ int main() {
 	}
 	else {
 		std::cout << "invalid input." << std::endl;
-		return 0;
+		return 1;
 	}
 
 	std::cout << "What are you converting to?" << std::endl;
@@ -39,19 +39,30 @@ int main() {
 	}
 	else if (unit == "s") {
 		std::cout << "converting to standard." << std::endl;
-	}else {
+	}
+	else {
 		std::cout << "invalid input." << std::endl;
-		return 0;
+		return 1;
 	}
 
 	std::cout << "please type the ammount you want converted: \t" << std::endl;
 	double value;
-	std::getline(std::cin, temp);
-	value = std::stod(temp);
-	
-	//if(){}
-	
-//	std::cout << << std::endl;
+	std::getline(std::cin, input);
 
-	return 1;
+	try {
+	value = std::stod(input);
+	}
+	catch (std::exception& e) {
+		std::cout << "value must be a number!" << std::endl;
+		return 2;
+	}
+	
+	//mass
+	//if(){}
+
+	//temp
+
+	//distance
+
+	return 0;
 }
